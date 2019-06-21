@@ -1,0 +1,171 @@
+fileFormatVersion: 2
+guid: cab190dc20fefe84d8fd4d9662faff48
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Camp FIre
+    100002: Plane
+    100004: Rocks
+    100006: Sittin Logs
+    100008: Sittin Logs 1
+    100010: Sittin Logs.002
+    100012: Sittin Logs.003
+    100014: Sittin Logs.004
+    100016: Sittin Logs.005
+    100018: Sittin Logs.006
+    100020: Sittin Logs.007
+    100022: Sittin Logs.008
+    100024: //RootNode
+    400000: Camp FIre
+    400002: Plane
+    400004: Rocks
+    400006: Sittin Logs
+    400008: Sittin Logs 1
+    400010: Sittin Logs.002
+    400012: Sittin Logs.003
+    400014: Sittin Logs.004
+    400016: Sittin Logs.005
+    400018: Sittin Logs.006
+    400020: Sittin Logs.007
+    400022: Sittin Logs.008
+    400024: //RootNode
+    2300000: Camp FIre
+    2300002: Plane
+    2300004: Rocks
+    2300006: Sittin Logs
+    2300008: Sittin Logs 1
+    2300010: Sittin Logs.002
+    2300012: Sittin Logs.003
+    2300014: Sittin Logs.004
+    2300016: Sittin Logs.005
+    2300018: Sittin Logs.006
+    2300020: Sittin Logs.007
+    2300022: Sittin Logs.008
+    3300000: Camp FIre
+    3300002: Plane
+    3300004: Rocks
+    3300006: Sittin Logs
+    3300008: Sittin Logs 1
+    3300010: Sittin Logs.002
+    3300012: Sittin Logs.003
+    3300014: Sittin Logs.004
+    3300016: Sittin Logs.005
+    3300018: Sittin Logs.006
+    3300020: Sittin Logs.007
+    3300022: Sittin Logs.008
+    4300000: Sittin Logs.008
+    4300002: Sittin Logs.007
+    4300004: Sittin Logs.006
+    4300006: Sittin Logs.005
+    4300008: Sittin Logs.004
+    4300010: Sittin Logs.003
+    4300012: Sittin Logs.002
+    4300014: Sittin Logs 1
+    4300016: Sittin Logs
+    4300018: Camp FIre
+    4300020: Rocks
+    4300022: Plane
+    2186277476908879412: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.002
+    second: {fileID: 2100000, guid: e2e94fe2547bb8f42904aab1a93331a7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.003
+    second: {fileID: 2100000, guid: 6100c3aeed30f5d478417356f5b4bb95, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.004
+    second: {fileID: 2100000, guid: 90c71e1d014f5824d9ce6902ca73c737, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tile
+    second: {fileID: 2100000, guid: 4225f0f5159c93a4d9d3be38231310e1, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

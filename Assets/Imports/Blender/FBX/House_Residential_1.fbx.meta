@@ -1,0 +1,251 @@
+fileFormatVersion: 2
+guid: c8598f961ab4aef4eba1e88bf99198e4
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Ceiling
+    100002: Chimney
+    100004: Door Frame
+    100006: Floor
+    100008: //RootNode
+    100010: Pilar
+    100012: Roof
+    100014: Stone Path
+    100016: Tile Plate
+    100018: Wall Back
+    100020: Wall Front Left Door
+    100022: Wall Front Right Door
+    100024: Wall Front Roof
+    100026: Wall Front Top Door
+    100028: Wall Interior Bath Left
+    100030: Wall Interior Bath Right
+    100032: Wall Side Right
+    100034: Wall Side Right Side Door
+    100036: Wall Side Roof
+    100038: Window Frames
+    100040: Windows
+    400000: Ceiling
+    400002: Chimney
+    400004: Door Frame
+    400006: Floor
+    400008: //RootNode
+    400010: Pilar
+    400012: Roof
+    400014: Stone Path
+    400016: Tile Plate
+    400018: Wall Back
+    400020: Wall Front Left Door
+    400022: Wall Front Right Door
+    400024: Wall Front Roof
+    400026: Wall Front Top Door
+    400028: Wall Interior Bath Left
+    400030: Wall Interior Bath Right
+    400032: Wall Side Right
+    400034: Wall Side Right Side Door
+    400036: Wall Side Roof
+    400038: Window Frames
+    400040: Windows
+    2300000: Ceiling
+    2300002: Chimney
+    2300004: Door Frame
+    2300006: Floor
+    2300008: Pilar
+    2300010: Roof
+    2300012: Stone Path
+    2300014: Tile Plate
+    2300016: Wall Back
+    2300018: Wall Front Left Door
+    2300020: Wall Front Right Door
+    2300022: Wall Front Roof
+    2300024: Wall Front Top Door
+    2300026: Wall Interior Bath Left
+    2300028: Wall Interior Bath Right
+    2300030: Wall Side Right
+    2300032: Wall Side Right Side Door
+    2300034: Wall Side Roof
+    2300036: Window Frames
+    2300038: Windows
+    3300000: Ceiling
+    3300002: Chimney
+    3300004: Door Frame
+    3300006: Floor
+    3300008: Pilar
+    3300010: Roof
+    3300012: Stone Path
+    3300014: Tile Plate
+    3300016: Wall Back
+    3300018: Wall Front Left Door
+    3300020: Wall Front Right Door
+    3300022: Wall Front Roof
+    3300024: Wall Front Top Door
+    3300026: Wall Interior Bath Left
+    3300028: Wall Interior Bath Right
+    3300030: Wall Side Right
+    3300032: Wall Side Right Side Door
+    3300034: Wall Side Roof
+    3300036: Window Frames
+    3300038: Windows
+    4300000: Wall Side Roof
+    4300002: Wall Back
+    4300004: Wall Interior Bath Left
+    4300006: Wall Front Right Door
+    4300008: Wall Interior Bath Right
+    4300010: Wall Side Right
+    4300012: Wall Front Roof
+    4300014: Wall Side Right Side Door
+    4300016: Wall Front Top Door
+    4300018: Wall Front Left Door
+    4300020: Floor
+    4300022: Ceiling
+    4300024: Roof
+    4300026: Door Frame
+    4300028: Windows
+    4300030: Window Frames
+    4300032: Stone Path
+    4300034: Chimney
+    4300036: Pilar
+    4300038: Tile Plate
+    2186277476908879412: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Black
+    second: {fileID: 2100000, guid: c8c70b71f0b66e6459e0aff45fa6ecf4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ceiling
+    second: {fileID: 2100000, guid: 6a8dfc003c0a2b64a926a73e7b9bd8ae, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Chimney
+    second: {fileID: 2100000, guid: 44ecf88b3b3894b42be65bb52351587d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Door Frame
+    second: {fileID: 2100000, guid: bd66d2b8280278f449744d4e8c3bca18, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Floor
+    second: {fileID: 2100000, guid: 95504c03607875244bc2c8dec3f99ad5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Glass
+    second: {fileID: 2100000, guid: 36c413e7663ecad42b50083f93f5cc83, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Path Stones
+    second: {fileID: 2100000, guid: 00350b7f3f2c73247bd400aa302456e4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pilar
+    second: {fileID: 2100000, guid: 5728fb7e5a526de4f95352450cdaa82a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Roof
+    second: {fileID: 2100000, guid: 951981dc9188ce842b10889fb503f4fb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tile Plate
+    second: {fileID: 2100000, guid: eff17803a4f8dea47b7a1d4d0aa6c302, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Walls
+    second: {fileID: 2100000, guid: 66de0a78dbe66f44a94d14b9a996b921, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Window Frame
+    second: {fileID: 2100000, guid: d9d5bb2c88c977547bfca353da550dda, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
