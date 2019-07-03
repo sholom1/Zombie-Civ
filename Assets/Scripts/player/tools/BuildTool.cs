@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using UnityStandardAssets.Characters.FirstPerson;
+using UnityEngine.EventSystems;
 
 public class BuildTool : MonoBehaviour
 {
@@ -54,6 +55,7 @@ public class BuildTool : MonoBehaviour
             //and selected is not null
             if (selected != null)
             {
+
                 //Set the shot to come from the position of theCamera
                 Ray rayOrigin = TopDownCamera.ScreenPointToRay(Input.mousePosition);
                 //Initialize Raycast
@@ -73,15 +75,18 @@ public class BuildTool : MonoBehaviour
                         //check if we are allowed to place & we can afford the building
                         if (canPlace)
                         {
-                            
-                            if (PointSystem.instance.Charge(buildable.Price))
+                            if (!EventSystem.current.IsPointerOverGameObject())
                             {
-                                buildable.BuildStart();
-                            }
-                            //if we cant afford run building failed
-                            else
-                            {
-                                BuildingFailed(WhyBuildingFailed.NoMoney);
+
+                                if (PointSystem.instance.Charge(buildable.Price))
+                                {
+                                    buildable.BuildStart();
+                                }
+                                //if we cant afford run building failed
+                                else
+                                {
+                                    BuildingFailed(WhyBuildingFailed.NoMoney);
+                                }
                             }
                         }
                         else
@@ -109,7 +114,7 @@ public class BuildTool : MonoBehaviour
                             eulerRoundedRotation.y = Mathf.Round(eulerRoundedRotation.y / 45) * 45;
                             roundedRotation = Quaternion.Euler(eulerRoundedRotation);
                             selected.rotation = roundedRotation;
-                            
+
                         }
 
                         else if (Input.GetAxis("Mouse X") != 0)
@@ -212,6 +217,7 @@ public class BuildTool : MonoBehaviour
     /// <param name="newSelected"></param>
     public void SetSelected(GameObject newSelected)
     {
+        DeSelect();
         //creates new building
         GameObject go = Instantiate(newSelected, this.gameObject.transform);
         selected = go.transform;

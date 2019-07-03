@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class MapGen : MonoBehaviour {
+
+    public static MapGen Instance;
 	public List<GameObject> Tiles;
 	public List<GameObject> Resources;
 	public List<GameObject> resources;
@@ -12,14 +14,20 @@ public class MapGen : MonoBehaviour {
 	public int seed;
 	public GameObject map;
 	public bool genmap;
-	/*For every factor(f) in map size a biome will be spawned
+    #region singleton
+    private void Awake()
+    {
+        Instance = this;
+    }
+    #endregion
+    /*For every factor(f) in map size a biome will be spawned
 	 * Each Biome will:
 	 * Consist completely of one Material
 	 * Be square
 	 */
-	void Start () {
+    void Start () {
 		if (genmap) {
-			computeSeed ();
+			GetSeedHashCode ();
 			GenerateLand ();
 			GenerateResources ();
 		}
@@ -28,7 +36,7 @@ public class MapGen : MonoBehaviour {
 			resources.Add (trees [i]);
 		}
 	}
-	void computeSeed (){
+	void GetSeedHashCode (){
 		seed = seedString.GetHashCode ();
 		if (seed < 0) {
 			seed*=-1;
