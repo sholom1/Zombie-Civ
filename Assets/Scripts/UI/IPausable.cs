@@ -1,11 +1,10 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
-namespace ZombieCiv.Tools
+namespace ZombieCiv.UI
 {
-    public interface Interactable
+    public interface IPausable
     {
-        void Use(Interact player);
+        void Pause();
     }
 }

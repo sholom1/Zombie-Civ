@@ -2,11 +2,15 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class StorageHealthManagement : PlayerHealth {
-    public StorageArea storageArea;
-    public override void ChangeHealth(float health)
+namespace ZombieCiv.Construction
+{
+    public class StorageHealth : PlayerHealth
     {
-        base.ChangeHealth(health);
-        storageArea.adjustInventory(currentHealth);
+        public StorageArea storageArea;
+        public override void ChangeHealth(float health)
+        {
+            base.ChangeHealth(health);
+            storageArea.adjustInventory(currentHealth);
+        }
     }
 }
